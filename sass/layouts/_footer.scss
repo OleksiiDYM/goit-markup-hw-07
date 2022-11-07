@@ -92,6 +92,15 @@
   background-color: #2f303a;
   outline-color: transparent;
   color: #ffffff;
+  &::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 .subscribe-button {
   display: flex;
@@ -124,16 +133,7 @@
   letter-spacing: 0.06em;
   display: flex;
 }
-.subscribe-input::placeholder {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
-}
 .subscribe-wrap {
   position: relative;
 }

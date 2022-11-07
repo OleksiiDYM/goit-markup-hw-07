@@ -31,6 +31,24 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-black);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    top: 48px;
+    width: 100%;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+  }
 }
 .header-link1 {
   position: relative;
@@ -40,31 +58,14 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--font-black);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.header-link:hover,
-.header-link:focus {
-  color: var(--button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link1:hover,
-.header-link1:focus {
-  color: var(--button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link::after {
-  content: '';
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: 0;
-  top: 48px;
-  width: 100%;
-  height: 4px;
-  background: #2196f3;
-  border-radius: 2px;
-}
+
 .header-tel {
   text-decoration: none;
   font-weight: 500;
@@ -77,13 +78,14 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .header-email {
   font-weight: 500;
   font-size: 14px;
@@ -95,12 +97,12 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-}
-.header-email:hover,
-.header-email:focus {
-  color: var(--button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .hdr-tel {

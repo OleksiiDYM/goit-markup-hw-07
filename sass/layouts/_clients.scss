@@ -25,16 +25,17 @@
   color: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #ffffff;
+    color: var(--button-color);
+    border-color: var(--button-color);
+  }
 }
 .clients-icon {
   fill: currentColor;
 }
-.clients-logo:hover,
-.clients-logo:focus {
-  background-color: #ffffff;
-  color: var(--button-color);
-  border-color: var(--button-color);
-}
+
 .clients-list {
   display: flex;
   justify-content: center;
