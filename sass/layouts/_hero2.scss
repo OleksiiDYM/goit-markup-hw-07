@@ -1,0 +1,35 @@
+.hero2 {
+  padding-top: 94px;
+}
+.hero2-list {
+  display: flex;
+  gap: 30px;
+}
+
+.hero2-main {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--font-black);
+}
+.hero2-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--font-grey);
+  min-width: 270px;
+}
+.hero2-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+}
