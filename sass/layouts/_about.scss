@@ -2,12 +2,12 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.about-list {
+.about__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.about-text {
+.about__text {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -16,10 +16,10 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.about-item {
+.about__item {
   position: relative;
 }
-.about-btn {
+.about__btn {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,12 +1,12 @@
-.hero2 {
+.features {
   padding-top: 94px;
 }
-.hero2-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.hero2-main {
+.features__main {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -15,14 +15,14 @@
   margin-bottom: 10px;
   color: var(--font-black);
 }
-.hero2-item {
+.features__item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--font-grey);
   min-width: 270px;
 }
-.hero2-link {
+.features__link {
   display: flex;
   align-items: center;
   justify-content: center;
